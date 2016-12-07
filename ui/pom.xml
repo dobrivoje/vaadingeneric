@@ -28,6 +28,13 @@
             <url>https://maven.vaadin.com/vaadin-prereleases</url>
         </pluginRepository>
     </pluginRepositories>
+    
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
     <profiles>
         <profile>
@@ -168,9 +175,9 @@
             <type>jar</type>
         </dependency>
         <dependency>
-            <groupId>org.superbapps</groupId>
-            <artifactId>utils-all</artifactId>
-            <version>1.7</version>
+            <groupId>com.github.dobrivoje</groupId>
+            <artifactId>Utils</artifactId>
+            <version>v1.7.1</version>
         </dependency>
     </dependencies>
 

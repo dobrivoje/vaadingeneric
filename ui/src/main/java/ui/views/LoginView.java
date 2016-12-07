@@ -1,8 +1,8 @@
 package ui.views;
 
 import com.google.common.eventbus.Subscribe;
-import events.DashboardEvent.UserLoginRequestedEvent;
-import events.DashboardEventBus;
+import infra.events.DashboardEvent.UserLoginRequestedEvent;
+import infra.events.DashboardEventBus;
 import com.vaadin.event.ShortcutAction.KeyCode;
 import com.vaadin.server.FontAwesome;
 import com.vaadin.server.Page;
@@ -21,7 +21,7 @@ import com.vaadin.ui.PasswordField;
 import com.vaadin.ui.TextField;
 import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.themes.ValoTheme;
-import events.DashboardEvent.UserLoggingEvent;
+import infra.events.DashboardEvent.UserLoggingEvent;
 import static ui.MainUI.appBundle;
 import static ui.MainUI.uiBundle;
 

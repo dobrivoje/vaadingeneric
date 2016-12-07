@@ -1,4 +1,4 @@
-package events;
+package infra.events;
 
 import java.util.Collection;
 

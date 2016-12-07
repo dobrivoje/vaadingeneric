@@ -1,10 +1,10 @@
 package infra;
 
 import org.vaadin.googleanalytics.tracking.GoogleAnalyticsTracker;
-import events.DashboardEvent.BrowserResizeEvent;
-import events.DashboardEvent.CloseOpenWindowsEvent;
-import events.DashboardEvent.PostViewChangeEvent;
-import events.DashboardEventBus;
+import infra.events.DashboardEvent.BrowserResizeEvent;
+import infra.events.DashboardEvent.CloseOpenWindowsEvent;
+import infra.events.DashboardEvent.PostViewChangeEvent;
+import infra.events.DashboardEventBus;
 import ui.views.DashboardViewType;
 import com.vaadin.navigator.Navigator;
 import com.vaadin.navigator.View;

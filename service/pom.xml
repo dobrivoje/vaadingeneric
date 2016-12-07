@@ -16,6 +16,13 @@
         <version>1.1</version>
     </parent>
     
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+        
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -71,9 +78,9 @@
             <type>jar</type>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>utils-all</artifactId>
-            <version>1.7</version>
+            <groupId>com.github.dobrivoje</groupId>
+            <artifactId>Utils</artifactId>
+            <version>v1.7.1</version>
         </dependency>
     </dependencies>
     
